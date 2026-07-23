@@ -177,17 +177,19 @@ dependencies = [
     { name = "pandas" },
     { name = "plotly" },
     { name = "scikit-learn" },
+    { name = "scipy" },
     { name = "streamlit" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "joblib", specifier = ">=1.5.3" },
-    { name = "numpy", specifier = ">=2.5.1" },
-    { name = "pandas", specifier = ">=3.0.5" },
-    { name = "plotly", specifier = ">=6.9.0" },
-    { name = "scikit-learn", specifier = ">=1.9.0" },
-    { name = "streamlit", specifier = ">=1.60.0" },
+    { name = "joblib", specifier = "==1.5.3" },
+    { name = "numpy", specifier = "==2.5.1" },
+    { name = "pandas", specifier = "==3.0.5" },
+    { name = "plotly", specifier = "==6.9.0" },
+    { name = "scikit-learn", specifier = "==1.9.0" },
+    { name = "scipy", specifier = "==1.18.0" },
+    { name = "streamlit", specifier = "==1.60.0" },
 ]
 
 [[package]]
